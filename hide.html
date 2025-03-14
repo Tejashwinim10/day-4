@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide content</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: rgba(210, 240, 241, 0.888);
+        }
+
+        img {
+            margin-left: 40%
+        }
+
+        button {
+            color: rgb(3, 5, 6);
+            background-color: #9fdbdb;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 style="text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;">Let's see the hidden contents while
+            you click on the below button</h1>
+        <button id="button" onclick="show()">Show</button>
+        <h2 id="h2" style="display: none; text-shadow:0 0 3px rgb(8, 4, 83)">Welcome to this page</h2>
+        <img id="img" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1AToDg.img?w=768&h=432&m=6"
+            style="display: none;" width="300px;" height="300px;">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
