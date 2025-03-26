@@ -1,0 +1,111 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f6d365, #fda085);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  .input-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #todoInput {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #fda085;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  #addBtn {
+    background-color: #fda085;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #addBtn:hover {
+    background-color: #f77f57;
+  }
+  
+
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin: 10px 0;
+    background-color: #f6d365;
+    border-radius: 8px;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-item.completed {
+    text-decoration: line-through;
+    background-color: #d9f7be;
+    color: #6a9955;
+  }
+  
+  .complete-btn,
+  .delete-btn {
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .complete-btn {
+    background-color: #6abf69;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .complete-btn:hover {
+    background-color: #5aa859;
+  }
+  
+  .delete-btn {
+    background-color: #f77f57;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e06638;
+  }
+  
